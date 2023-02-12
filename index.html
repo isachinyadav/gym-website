@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Website </title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            height: 1000px;
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color: beige;
+        }
+
+        .left{
+            height: 200px;
+            width: 200px;
+        }
+        .left img{
+            height: 200px;
+            width: 250px;
+        }
+        .left h4{
+            margin: 20px;
+        }
+        .navbar{
+          display: inline-block;
+          position: absolute;
+          top: 20px;
+          left: 200px;
+          
+        }
+        .navbar li{
+            position: relative;
+            display: inline-block;
+            margin: 20px;
+            padding: 20px;
+            text-decoration: none;
+        }
+        .right{
+            position: absolute;
+            display: inline-block;
+            right: 30px;
+            top: 60px;
+            
+        
+        }
+        .right button{
+            margin: 10px;
+            padding: 5px;
+           border-radius: 20px;
+           background-color: bisque;
+           
+        }
+        .container{
+            border: 2px solid darkslategray;
+            display: inline-block;
+            height: 500px;
+            width: 500px;
+            margin: 300px;
+            position: relative;
+            text-align: center;
+            align-content: center;
+        }
+        .form{
+            margin: 20px 20px;
+            padding: 10px;
+            display: inline-block;
+            align-items: center;
+        }
+         h1{
+            display: block;
+            margin: 20px 20px;
+            padding: 10px;
+         }
+          .navbar li a{
+            color: black;
+            text-decoration: none;
+          }
+          .navbar li a:hover{
+            color: darkred;
+            text-decoration: underline;
+          }
+          footer{
+            background-color: black;
+            color: deepskyblue;
+
+          }
+    </style>
+</head>
+<body>
+   <header class="header">
+    <!-- right part -->
+    <div class="left">
+        <img src="https://i.pinimg.com/originals/67/a7/f6/67a7f6990b64d58d76dc2ee3a449081f.png" alt="Loading...">
+        <h4>mine Gym</h4>
+    </div>
+     <!-- mid part -->
+     <div class="mid">
+        <ul class="navbar">
+         <li><a href="http//"> Home</a></li>
+         <li><a href="http//"> About Us</a> </li>
+         <li><a href="http/">details </a>  </li>
+         <li><a href="http/"> contact us</a>  </li>
+        </ul>
+     </div>
+     <!-- right part -->
+     <div class="right">
+        <button>contact Us</button>
+        <button> Email US</button>
+     </div>
+   </header> 
+   <div class="container">
+    <h1> welcome to Gym</h1>
+    <form action="php/">
+        <div class="form">
+            Name :
+             <input type="text" class="name" placeholder="Enter the name">
+        </div>
+        <div class="form">
+           Gender : male<input type="radio" name="gender" id="male" >
+           female <input type="radio" name="gender" id="female">
+        </div>
+        <div class="form">
+            Email :<input type="email" name="form" >
+        </div>
+        <div class="form">
+            Phone Number : <input type="number" name="phone" >
+        </div>
+        <div class="form">
+            <input type="submit" value="submit">
+        </div>
+    </form>
+   </div>
+   <footer> welcome to gym yadav gym</footer>
+</body>
+</html>
